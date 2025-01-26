@@ -1,0 +1,27 @@
+.hero-section {
+  @apply bg-cover bg-center h-screen w-full flex items-center justify-between overflow-hidden;
+}
+
+.hero-content {
+  @apply text-right mt-20 pr-4 md:pr-10 max-w-full; /* Increase margin-top and add padding-right */
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #02F7FF, #33ADEC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: clamp(1.5rem, 4vw, 2.5rem); /* Adjust the font size to be larger */
+}
+
+.text-white {
+  font-size: clamp(0.875rem, 2vw, 1rem); /* Adjust the font size to be similar to a span */
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.bike-image img {
+  max-width: 100%;
+  height: auto;
+}
