@@ -42,13 +42,13 @@ const ShowcaseSection = () => {
           {/* Social Links */}
           <div className="social-links">
             <span className="join-us">JOIN US</span>
-            <a href="#" className="social-link">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#" className="social-link">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="#" className="social-link">
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-link">
               <i className="fab fa-youtube"></i>
             </a>
           </div>
